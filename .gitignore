@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# never commit credentials or session files
+.env
+.env.*
+!.env.example
+*.session
+*.pem
+*.key
