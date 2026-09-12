@@ -125,8 +125,8 @@ Views are hidden-line projections generated from the solids themselves, not
 screenshots of a CAD GUI.</p>
 {"".join(parts)}"""
 
-    Path("portfolio.html").write_text(page, encoding="utf-8")
-    print(f"portfolio.html written: {grand_ok}/{grand_total} checks")
+    Path("index.html").write_text(page, encoding="utf-8")
+    print(f"index.html written: {grand_ok}/{grand_total} checks")
 
 
 if __name__ == "__main__":

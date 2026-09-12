@@ -24,7 +24,7 @@ gears.py      involute tooth profile generation from first principles
 cadkit.py     the shared acceptance battery
 validate.py   runs every model, writes STEP on a clean pass
 render.py     hidden-line orthographic and isometric views
-sheet.py      builds portfolio.html
+sheet.py      builds index.html, the portfolio page
 out/          STEP files and SVG views
 ```
 
@@ -168,3 +168,7 @@ carries about 15,000 edges and a single isometric view took over nine minutes. `
 uses a coarser flank sampling for drawings only — 4,659 edges, and all four views in 21
 seconds. Validation and STEP export always use the exact geometry; the reduced set never
 reaches a check or an exported file.
+
+## Live portfolio
+
+https://lawalgoodness.github.io/cad-portfolio/
