@@ -114,6 +114,7 @@ def main() -> None:
     page = f"""<title>Programmatic CAD Portfolio</title>
 <style>{CSS}</style>
 <h1>Programmatic CAD portfolio</h1>
+<p style="margin:-4px 0 20px; font-size:13.5px; line-height:1.7; color:#5c6584;">Lawal Goodness &nbsp;&middot;&nbsp; <a href="https://github.com/LawalGoodness" style="color:#2a4fb0; text-decoration:none;">github.com/LawalGoodness</a> &nbsp;&middot;&nbsp; <a href="https://github.com/LawalGoodness/cad-portfolio" style="color:#2a4fb0; text-decoration:none;">source for this page</a></p>
 <p class="lede">Five mechanical parts, each specified as a dimensioned drawing,
 modelled entirely in Python with build123d, exported to STEP, and verified
 against the drawing by an automated acceptance battery. The last is a working
